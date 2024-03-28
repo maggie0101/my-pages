@@ -1,0 +1,215 @@
+/* 基本样式重置 */
+body, h1, h2, h3, p, ul, li, select, button, hr {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ebe2d6;
+}
+
+/* 页面标题样式 */
+h1 {
+  font-size: 36px;
+  text-align: center;
+  margin: 20px 0;
+  color: #789abe;
+}
+
+/* 下拉框样式 */
+#filter {
+  text-align: center;
+  /* 可以根据需要添加其他样式 */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  margin: 0 auto; /* 水平居中对齐 */
+  display: block; /* 使其成为块级元素以实现水平居中 */
+}
+
+#main-area {
+  text-align: center; /* 水平居中 */
+}
+
+
+
+/* 按钮样式 */
+#add-button {
+  position:absolute;
+  right:10px;
+  top: 10px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2186c8;
+}
+
+/* 分隔线样式 */
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 20px 0;
+}
+
+/* 样式化输入框和下拉选择框 */
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* 样式化描述输入框 */
+input[type="text"] {
+    width: 100%;
+    height:400px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    font-size: 16px;
+}
+
+/* 样式化按钮 */
+
+
+/* 给下拉选择框和输入框添加一些额外的样式 */
+select,
+input[type="date"],
+input[type="text"] {
+  text-align: center;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  margin: 0 auto; /* 水平居中对齐 */
+}
+
+.descriptionInput{
+  width: 100%;
+    height:400px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    font-size: 16px;
+
+}
+
+#saveButton {
+  position:absolute;
+  right:10px;
+  bottom:10px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#cancelButton {
+  position:absolute;
+  right:100px;
+  bottom:10px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.diary-card {
+  background-color: rgb(220, 199, 155); /* 卡片背景颜色 */
+  border: 1px solid #ccc; /* 边框 */
+  border-radius: 5px; /* 圆角边框 */
+  padding: 10px; /* 内边距 */
+  margin: 10px; /* 外边距，用于控制卡片之间的间距 */
+  width: 300px; /* 卡片宽度 */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 阴影效果 */
+  display: inline-block; /* 内联块元素，让卡片水平排列 */
+  width: 250px; /* 固定宽度 */
+  height: 200px; /* 固定高度 */
+  text-align: left;
+}
+
+.diary-card:hover {
+  background-color: #789abe; /* 鼠标悬停时改变按钮背景颜色 */
+}
+
+
+/* 样式类用于排版和放大 */
+.diary-element {
+  font-size: 18px;
+  margin: 20px; /* 增加一些外边距 */
+  padding: 20px; /* 增加一些内边距 */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9; /* 设置背景颜色 */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
+  transition: all 0.3s ease; /* 添加过渡效果，使放大更平滑 */
+}
+
+/* 样式类用于放大按钮 */
+.diary-page-button {
+  font-size: 20px; /* 增大按钮字体大小 */
+  padding: 10px 20px; /* 增大按钮内边距 */
+  background-color: #007bff; /* 设置按钮背景颜色 */
+  color: #fff; /* 设置按钮文字颜色 */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.diary-button:hover {
+  background-color: #ac1616; /* 鼠标悬停时改变按钮背景颜色 */
+}
+
+.mood {
+  /*border: 1px solid #000;  添加1px的黑色边框 */
+  padding: 5px; /* 添加内边距，使内容不会紧贴边框 */
+  background-color: rgb(236, 152, 152); /* 更改心情元素的背景色为白色 */
+  margin: 0; /* 去掉默认的外边距 */
+}
+
+.type {
+  /*border: 1px solid #000; /* 添加1px的黑色边框 */
+  padding: 5px; /* 添加内边距，使内容不会紧贴边框 */
+  background-color: rgb(236, 215, 152); /* 更改心情元素的背景色为白色 */
+  margin: 0; /* 去掉默认的外边距 */
+}
+
+.date {
+  /*border: 1px solid #000; /* 添加1px的黑色边框 */
+  padding: 5px; /* 添加内边距，使内容不会紧贴边框 */
+  background-color: rgb(204, 236, 152); /* 更改心情元素的背景色为白色 */
+  margin: 0; /* 去掉默认的外边距 */
+}
+
+.description {
+  /*border: 1px solid #000; /* 添加1px的黑色边框 */
+  padding: 5px; /* 添加内边距，使内容不会紧贴边框 */
+  background-color: rgb(152, 236, 211); /* 更改心情元素的背景色为白色 */
+  margin: 0; /* 去掉默认的外边距 */
+  word-wrap: break-word; /* 允许单词内换行 */
+  white-space: pre-line; /* 保留换行符并允许自动换行 */
+}
+
+
+/* 添加其他样式和效果以适应您的需要 */
