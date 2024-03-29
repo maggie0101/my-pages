@@ -18,7 +18,7 @@ others: Next.js
 
 ![image](https://github.com/maggie0101/my-pages/blob/main/my-events/events1.png)
 
-參加活動後即可參與聊天版中的討論，若是退出活動，即無法參與討論
+點擊活動後即可看到活動詳細資訊，且參加活動後即可參與聊天版中的討論，若是退出活動，則無法參與討論
 
 ![image](https://github.com/maggie0101/my-pages/blob/main/my-events/events3.png)
 
