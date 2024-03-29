@@ -1,4 +1,16 @@
 # my-pages
 
 # my-messenger
-![](https://file%2B.vscode-resource.vscode-cdn.net/Users/maggieyang/Desktop/%E6%88%AA%E5%9C%96%202024-03-28%20%E4%B8%AD%E5%8D%8812.00.45.png?version%3D1711704251206)
+![image](https://github.com/maggie0101/my-pages/blob/main/my-messenger-screenshot.png)
+
+# my-events
+![image](https://github.com/maggie0101/my-pages/blob/main/my-events-screenshot.png)
+
+
+# my-musiclists
+![image](https://github.com/maggie0101/my-pages/blob/main/my-musiclist-screenshot.png)
+
+
+# my-diary
+![image](https://github.com/maggie0101/my-pages/blob/main/my-diary-screenshot.png)
+
