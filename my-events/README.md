@@ -1,48 +1,27 @@
-# Web Programming HW#3
+# my-events
 
-###開啟方式與老師範例相同
-###yarn migrate時可能會有error，但程式應該可以正常跑動
-###已完成全部pass要求
-###小提示！日期與時間雖然有預設，但是都需要重新輸入（選擇日期、完整輸入時間）才可以建立活動喔！
+活動參加網頁，輸入使用者名稱後，可以建立自己想要參加的活動，或者選擇自己想要參加的活動，參加活動後即可在留言板發言，與其他參加者一起互動
 
-###感謝review! 希望大家都可以獲得好成績～
+前端：React.js、Typescript、TSX、MUI、Tailwind CSS、Axios
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+後端：drizzle-orm、PostgreSQL、Express 
 
-## Getting Started
+others: Next.js
 
-First, run the development server:
+![image](https://github.com/maggie0101/my-pages/blob/main/my-events-screenshot.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+按下切換使用者後，即可切換使用者名稱
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![image](https://github.com/maggie0101/my-pages/blob/main/my-events/events4.png)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+按下新增後即可新增新的活動，必須要輸入活動名稱，即開始和結束的日期與時間
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+![image](https://github.com/maggie0101/my-pages/blob/main/my-events/events1.png)
 
-## Learn More
+點擊活動後即可看到活動詳細資訊，且參加活動後即可參與聊天版中的討論，若是退出活動，則無法參與討論
 
-To learn more about Next.js, take a look at the following resources:
+![image](https://github.com/maggie0101/my-pages/blob/main/my-events/events3.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-#感謝Review，辛苦啦
 
